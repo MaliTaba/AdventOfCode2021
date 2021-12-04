@@ -8,11 +8,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Boards.csv" />
+    <None Remove="CalledNumbers.csv" />
     <None Remove="Data.csv" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Data.csv">
+    <Content Include="Boards.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="CalledNumbers.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
